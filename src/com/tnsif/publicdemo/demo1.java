@@ -9,6 +9,9 @@ public class demo1 {
  	   System.out.println(obj.s);
  	   
  	   obj.display();
+ 	   
+ 	   
+ 	   
 	}
 
 }
