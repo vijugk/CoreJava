@@ -1,11 +1,14 @@
-
 package com.tnsif.polymorphismdemo;
+// demo for override
+// parent class
 
 public class RBI {
-
+	
 	float rateofinterest() {
-		// TODO Auto-generated method stub
-		return 0;
+		return 5.9f;
 	}
+	static class Rash{
+	
+}
 
 }
