@@ -7,7 +7,7 @@ public class Nestedtrycatch {
 		String str1="TNS";
 		int slength=str1.length();
 		System.out.println("string length "+slength);
-		String str2=null;
+		String str2="Hello";
 		
 		int y=6;
 		try {
@@ -17,6 +17,8 @@ public class Nestedtrycatch {
 			catch(StringIndexOutOfBoundsException ex) {
 				System.out.println(ex.getMessage());
 			}
+			System.out.println("string length " + str2.length());
+
 			System.out.println("string length "+str2.length());
 		}
 		catch(NullPointerException npe) {
